@@ -1,0 +1,41 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "stc-info",
+      "runtime": "static",
+      "buildCommand": "mkdir -p dist && cp privacy.html dist/privacy.html && cp support.html dist/support.html && cp site.css dist/site.css",
+      "staticPublishPath": "dist",
+      "autoDeployTrigger": "off",
+      "routes": [
+        {
+          "type": "rewrite",
+          "source": "/privacy",
+          "destination": "/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/support",
+          "destination": "/support.html"
+        }
+      ],
+      "headers": [
+        {
+          "path": "/*",
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "path": "/*",
+          "name": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "path": "/*",
+          "name": "Content-Security-Policy",
+          "value": "default-src 'none'; style-src 'self'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'"
+        }
+      ]
+    }
+  ]
+}
