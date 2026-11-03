@@ -37,6 +37,16 @@
           "type": "rewrite",
           "source": "/sogo/support",
           "destination": "/sogo/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sokuho/privacy",
+          "destination": "/sokuho/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sokuho/support",
+          "destination": "/sokuho/support.html"
         }
       ],
       "headers": [
