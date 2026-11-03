@@ -4,7 +4,7 @@
       "type": "web",
       "name": "stc-info",
       "runtime": "static",
-      "buildCommand": "mkdir -p dist && cp privacy.html dist/privacy.html && cp support.html dist/support.html && cp site.css dist/site.css",
+      "buildCommand": "mkdir -p dist && for f in *; do case \"$f\" in dist|render.yaml|README.md) ;; *) cp -R \"$f\" dist/ ;; esac; done",
       "staticPublishPath": "dist",
       "autoDeployTrigger": "off",
       "routes": [
@@ -17,6 +17,16 @@
           "type": "rewrite",
           "source": "/support",
           "destination": "/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/dojo/privacy",
+          "destination": "/dojo/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/dojo/support",
+          "destination": "/dojo/support.html"
         }
       ],
       "headers": [
