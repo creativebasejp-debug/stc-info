@@ -27,6 +27,16 @@
           "type": "rewrite",
           "source": "/dojo/support",
           "destination": "/dojo/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sogo/privacy",
+          "destination": "/sogo/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sogo/support",
+          "destination": "/sogo/support.html"
         }
       ],
       "headers": [
