@@ -47,6 +47,16 @@
           "type": "rewrite",
           "source": "/sokuho/support",
           "destination": "/sokuho/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/ipapro/privacy",
+          "destination": "/ipapro/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/ipapro/support",
+          "destination": "/ipapro/support.html"
         }
       ],
       "headers": [
