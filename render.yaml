@@ -57,6 +57,16 @@
           "type": "rewrite",
           "source": "/ipapro/support",
           "destination": "/ipapro/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/tsukanshi/privacy",
+          "destination": "/tsukanshi/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/tsukanshi/support",
+          "destination": "/tsukanshi/support.html"
         }
       ],
       "headers": [
