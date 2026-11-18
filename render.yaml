@@ -60,6 +60,16 @@
         },
         {
           "type": "rewrite",
+          "source": "/datamanagement/privacy",
+          "destination": "/datamanagement/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/datamanagement/support",
+          "destination": "/datamanagement/support.html"
+        },
+        {
+          "type": "rewrite",
           "source": "/tsukanshi/privacy",
           "destination": "/tsukanshi/privacy.html"
         },
