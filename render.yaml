@@ -60,6 +60,16 @@
         },
         {
           "type": "rewrite",
+          "source": "/mgmt/privacy",
+          "destination": "/mgmt/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/mgmt/support",
+          "destination": "/mgmt/support.html"
+        },
+        {
+          "type": "rewrite",
           "source": "/datamanagement/privacy",
           "destination": "/datamanagement/privacy.html"
         },
