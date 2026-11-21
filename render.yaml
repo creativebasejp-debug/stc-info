@@ -87,6 +87,16 @@
           "type": "rewrite",
           "source": "/tsukanshi/support",
           "destination": "/tsukanshi/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/system/privacy",
+          "destination": "/system/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/system/support",
+          "destination": "/system/support.html"
         }
       ],
       "headers": [
