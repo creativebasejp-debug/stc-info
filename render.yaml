@@ -107,6 +107,16 @@
           "type": "rewrite",
           "source": "/dataai/support",
           "destination": "/dataai/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sc/privacy",
+          "destination": "/sc/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/sc/support",
+          "destination": "/sc/support.html"
         }
       ],
       "headers": [

@@ -8,6 +8,7 @@ One Render static site (service `stc-info`) serves every NEF product's Privacy/S
   - `sogo/` = 工事担任者 総合通信 過去問
   - `system/` = PASS for システム
   - `dataai/` = PASS for データ・AI
+  - `sc/` = PASS for SC 2027
 
 ## Adding a product (no DNS / Render changes)
 1. Add `<product>/privacy.html` and `<product>/support.html` (copy `dojo/`, edit title/body/nav links).
