@@ -127,6 +127,16 @@
           "type": "rewrite",
           "source": "/sg/support",
           "destination": "/sg/support.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/ip/privacy",
+          "destination": "/ip/privacy.html"
+        },
+        {
+          "type": "rewrite",
+          "source": "/ip/support",
+          "destination": "/ip/support.html"
         }
       ],
       "headers": [
